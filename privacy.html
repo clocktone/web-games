@@ -1,0 +1,108 @@
+<!-- Variant: Dark Neon Arcade -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Pop It Bubble Blast · Clocktone</title>
+  <meta name="description" content="Privacy policy for Pop It Bubble Blast by Clocktone. The game collects no data and works fully offline.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/icon-512.png">
+  <link rel="canonical" href="privacy.html">
+  <meta name="theme-color" content="#05060a">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Privacy Policy — Pop It Bubble Blast · Clocktone">
+  <meta property="og:description" content="Pop It Bubble Blast collects no data and works fully offline.">
+  <meta property="og:image" content="assets/icon-512.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Clocktone home">
+        <span class="brand-name">Clocktone</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html#game">Game</a></li>
+          <li><a href="index.html#screenshots">Screenshots</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="section legal">
+      <div class="wrap wrap-narrow">
+        <h1 class="section-title">Privacy Policy</h1>
+        <p class="legal-meta">Pop It Bubble Blast — Last updated: August 5, 2026</p>
+        <p>This privacy policy applies to the mobile game <strong>Pop It Bubble Blast</strong> (the "App"), published by Clocktone ("we", "us"). We built the App to be played entirely offline, and we designed it to collect no data at all.</p>
+
+        <h2>Data We Collect</h2>
+        <p><strong>None.</strong> The App does not collect, store, transmit, or share any personal data or any other data. Specifically, the App does not:</p>
+        <ul>
+          <li>collect personal information (name, email, address, phone number, or identifiers);</li>
+          <li>collect device identifiers, advertising IDs, or location data;</li>
+          <li>use analytics, crash reporting, or advertising SDKs;</li>
+          <li>make network connections — the App works fully offline;</li>
+          <li>require or create user accounts.</li>
+        </ul>
+
+        <h2>Game Progress</h2>
+        <p>Your game progress (such as completed levels and scores) is stored only locally on your device. It never leaves your device, and we have no access to it. Uninstalling the App deletes this data.</p>
+
+        <h2>Third Parties</h2>
+        <p>The App contains no third-party SDKs, no advertising networks, and no analytics services. No data is shared with anyone, because no data is collected.</p>
+
+        <h2>Children</h2>
+        <p>Because the App collects no data from anyone, it also collects no data from children.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>If a future version of the App changes any of the above (for example, by adding analytics or advertising), we will update this policy before that version is released and note the new date at the top of this page.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about this policy: <a class="email-link" href="mailto:support@clocktone.io">support@clocktone.io</a></p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="copyright">© 2026 Clocktone. All rights reserved.</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:support@clocktone.io">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var menu = document.getElementById('nav-menu');
+      if (!toggle || !menu) return;
+      toggle.addEventListener('click', function () {
+        var open = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!open));
+        menu.classList.toggle('is-open', !open);
+      });
+      menu.addEventListener('click', function (e) {
+        if (e.target.tagName === 'A') {
+          toggle.setAttribute('aria-expanded', 'false');
+          menu.classList.remove('is-open');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
