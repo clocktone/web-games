@@ -313,29 +313,36 @@ a { color: var(--cyan); }
   flex-wrap: wrap;
 }
 
+/* games grid (hero) */
+.games-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
 /* game card = arcade cabinet */
 .game-card {
   text-align: center;
   background: linear-gradient(180deg, var(--panel), var(--panel-2));
   border: 1px solid var(--border-magenta);
   border-radius: 18px;
-  padding: 30px 26px;
+  padding: 22px 20px;
   box-shadow:
     0 0 28px rgba(255, 43, 214, 0.22),
     inset 0 0 30px rgba(138, 92, 255, 0.06);
 }
 .game-icon {
-  width: 128px;
-  height: 128px;
-  margin: 0 auto 18px;
-  border-radius: 26px;
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 14px;
+  border-radius: 22px;
   box-shadow: 0 0 24px rgba(0, 240, 255, 0.5);
 }
 .game-title {
   font-family: var(--mono);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   margin: 0 0 6px;
   text-shadow: 0 0 10px rgba(0, 240, 255, 0.4);
 }
@@ -417,6 +424,16 @@ a { color: var(--cyan); }
   color: var(--text-faint);
   margin: 4px 0 0;
 }
+.shots-game-title {
+  font-family: var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.15rem;
+  color: var(--magenta);
+  text-shadow: 0 0 10px rgba(255, 43, 214, 0.45);
+  margin: 40px 0 10px;
+}
+.shots-game-title:first-of-type { margin-top: 0; }
 
 /* ---- About / features ---- */
 .features {
