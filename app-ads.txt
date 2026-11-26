@@ -1,5 +1,3 @@
-# app-ads.txt for Clocktone Ltd (clocktone.io) and PlayLoop (getplayloop.com)
-# Built 2026-11-26 from each network's dashboard (Liftoff and Bigo added same day). Moloco needs no lines (direct demand only). Meta: add facebook.com line once Clocktone's payout setup is done.
 OWNERDOMAIN=clocktone.io
 
 #AppLovin
